@@ -1,0 +1,53 @@
+.view-members-page {
+  padding: 2.5rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #fff;
+  margin: 0 0 0.4rem;
+}
+
+.page-subtitle {
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 1rem;
+  margin: 0;
+}
+
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.empty-icon { font-size: 3rem; }
+
+.empty-state h2 {
+  color: #fff;
+  margin: 1rem 0 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .view-members-page { padding: 1.5rem 1rem; }
+  .members-grid { grid-template-columns: 1fr; }
+}
