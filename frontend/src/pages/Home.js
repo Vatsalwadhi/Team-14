@@ -18,7 +18,7 @@ const Home = () => {
       <div className="home-content">
         <div className="home-badge">🚀 Team Management Platform</div>
         <h1 className="home-title">
-          Welcome to <span className="highlight">TeamHub</span>
+          Welcome to <span className="highlight">Team-14</span>
         </h1>
         <p className="home-subtitle">
           Effortlessly manage your student team members. Add profiles, browse
