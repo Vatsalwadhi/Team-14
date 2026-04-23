@@ -3,6 +3,20 @@
 ## Project Description
 The Student Team Management Application is a MERN-stack web application designed to help teams organize and manage their members. It features an intuitive, modern user interface where users can view all members, add new members with profile pictures, view detailed member profiles, and remove members. The backend manages the members database using MongoDB and handles image uploads using Multer.
 
+## Screenshots
+
+### Home Page
+![Home page](image%20copy%203.png)
+
+### Team Member
+![Team member](image%20copy.png)
+
+### Add Member
+![Add member](image%20copy%202.png)
+
+### Detail About Member
+![Detail about member](image.png)
+
 ## Features
 - View a list of all team members.
 - Add a new team member with their details and upload a profile picture.
